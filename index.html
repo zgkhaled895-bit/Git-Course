@@ -10,16 +10,112 @@
 
 <body>
     <h1>Welcome my dear</h1>
-    <h2>paragraph one :</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non numquam fugiat
-        exercitationem quo reprehenderit eligendi, modi delectus. Obcaecati ab, quidem
-        minus ea error iure necessitatibus doloribus officia praesentium mollitia autem!</p>
+    <p id="section1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Vitae nulla tempore ipsum explicabo nam accusamus quidem,
+        suscipit animi quaerat, quisquam nemo consectetur. Laborum,
+        nam facere repellendus dolorum ut officia ipsum.</p>
+    <h2>Input types in html :</h2>
+    <!-- input types : -->
+    <!-- 1.text :  -->
+    <form action="process.php" method="POST">
+        <label for="#">Your name :</label>
+        <input type="text" id="#" name="name" required placeholder="Name">
+        <br>
+        <!-- 2.email : -->
+        <label for="2">Your email :</label>
+        <input type="email" id="2" name="email" required placeholder="Email">
+        <br>
+        <!-- 3.password : -->
+        <label for="1">Your password :</label>
+        <input type="password" id="1" required placeholder="password" minlength="8">
+        <br>
+        <!-- 4.telephone : -->
+        <label for="3">Your telephone :</label>
+        <input type="tel" id="3">
+        <br>
+        <!-- 5.date : -->
+        <label for="4">Your birthday :</label>
+        <input type="date" id="4">
+        <br>
+        <!-- 6.Number : -->
+        <label for="5">Your age :</label>
+        <input type="number" id="5">
+        <br>
+        <button class="but" type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <br>
+    <form action="" method="GET">
+        <!-- 7.Search : -->
+        <label for="6">Search :</label>
+        <input type="search" id="6">
+        <br>
+        <!-- 8.Url : -->
+        <label for="7">Url :</label>
+        <input type="url" id="7" name="url">
+        <br>
+        <!-- 9.file : -->
+        <label for="8">File :</label>
+        <input type="file" id="8">
+        <br>
+        <!-- 10.Color : -->
+        <label for="9">Color :</label>
+        <input type="color" id="9">
+        <br>
+        <!-- 11.Range : -->
+        <label for="10">Range :</label>
+        <input type="range" id="10">
+        <br>
+        <!-- 12.Submit : -->
+        <input type="submit" value="Send">
+        <!-- 13.Reset : -->
+        <input type="reset" value="Clear">
+    </form>
+    <!-- 14.button : -->
+    <input type="button" value="normal button">
+    <br>
+    <!-- 15.Week : -->
+    <label for="">Week :</label>
+    <input type="week">
+    <br>
+    <!-- 16.Month : -->
+    <label for="">Month :</label>
+    <input type="month">
+    <br>
+    <!-- 17.DateTime : -->
+    <label for="">datetime:</label>
+    <input type="datetime">
+    <p>- what is your favorite programming language ?</p>
+    <!-- 16.Radio : -->
+    <input type="radio" id="11" value="html" name="lang">
+    <label for="11">Html</label>
+    <input type="radio" id="12" value="css" name="lang">
+    <label for="12">Css</label>
+    <input type="radio" id="13" value="python" name="lang">
+    <label for="13">Python</label>
+    <br>
+    <p>What is your favorite song ?</p>
+    <input type="checkbox">
+    <label for="">lovely</label>
+    <input type="checkbox">
+    <label for="">Despasito</label>
+    <hr>
+    <h2>Links in html :</h2>
+
+    <h3>Link to another website :</h3>
     <!-- absolute URL -->
     <a href="https://www.google.com/" target="_blank">google</a>
-    <!-- line break -->
-    <br>
+
+    <h3>Link to another page in same website :</h3>
     <!-- relative URL -->
     <a href="index2.html">move to next page</a>
+
+    <h3>Link to email :</h3>
+    <!-- Mailto Url -->
+    <a href="mailto:zgkhaled895@gmail.com">email</a>
+    <h3>Link to section in page :</h3>
+    <!-- Section Url -->
+    <a href="#section1">paragraph</a>
 
 </body>
 
