@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    /* text-shadow: offset-x offset-y blur-radius color */
+    /* يمكن استخدام أكثر من ضل معاً */
+    text-shadow: 2px 2px 5px blue;
+    /* text-decoration: line style color thickness */
+    text-decoration: underline double blue 2px;
+}
+.strong {
+    /* text-transform: value */
+    text-transform: uppercase;
+}
+.paragraph {
+    /* text-indent: value(px,%,em,rem) */
+    /* text-indent use with p,article,div,section tags for first line */
+    text-indent: 6%;
+}
