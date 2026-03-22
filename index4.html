@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome</h1>
+    <h2>videos :</h2>
+    <h3>video from your pc :</h3>
+    <!-- width,height : Determine the dimensions of the video -->
+    <!-- loop: Automatically repeat the video -->
+    <!-- controls: Add control buttons  -->
+    <!-- muted: Mute sound  -->
+    <!-- autoplay: The video starts playing automatically once the page loads -->
+    <!-- poster: Video cover -->
+    <!-- autoplay == preload="auto" , Only one can be used -->
+    <video preload="metadata" controls height="280px" width="280px">
+        <source src="videos\instagram_1700823435989.mp4" type="video/mp4">
+        <!-- <source src="instagram_1700823435989.webm" type="video/webm">
+        <source src="instagram_1700823435989.ogg" type="video/ogg"> -->
+        your browser does not support this video
+    </video>
+    <h3>Video from YouTube :</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hA6hldpSTF8?si=Kaa17WXYoZSdW_t_"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Audio :</h2>
+    <audio controls loop muted>
+        <source src="audio\Riser - Sound Effect (Free).mp3" type="audio/mpeg">
+        <!-- <source src="Riser - Sound Effect (Free).wav" type="audio/wav">
+        <source src="Riser - Sound Effect (Free).ogg" type="audio/ogg"> -->
+        your browser does not support the audio tag
+    </audio>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: maroon;
 }
 h1 {
     /* text-shadow: offset-x offset-y blur-radius color */
@@ -16,4 +16,6 @@ h1 {
     /* text-indent: value(px,%,em,rem) */
     /* text-indent use with p,article,div,section tags for first line */
     text-indent: 6%;
+    /* text-wrap: value , values : 1.wrap 2.nowrap */
+    text-wrap: nowrap;
 }
