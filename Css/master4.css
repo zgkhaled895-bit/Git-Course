@@ -1,0 +1,27 @@
+body {
+    background-color: chocolate;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 15px
+}
+
+textarea {
+    height: 200px;
+    width: 220px;
+    margin-left: 125px;
+}
+
+select {
+    margin: 5px 0px 0px 195px;
+}
+
+.inp {
+    /* margin: top right bottom left */
+    margin: 5px 0 0 115px;
+}
+
+.in {
+    margin: 0 0 0 70px
+}

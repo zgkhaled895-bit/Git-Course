@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Css\master4.css">
 </head>
 
 <body>
@@ -36,6 +37,52 @@
         <source src="Riser - Sound Effect (Free).ogg" type="audio/ogg"> -->
         your browser does not support the audio tag
     </audio>
+    <h2>Select & datalist :</h2>
+    <h3>Select :</h3>
+    <form action="" method="Get">
+        <label for="c">What is your favourite country?</label>
+        <br>
+        <select name="country" id="c" multiple>
+            <optgroup label="Arab countries">
+                <option selected value="syria">Syria</option>
+                <option value="lebanon">Lebanon</option>
+                <option value="iraq">Iraq</option>
+                <option value="jordan">Jordan</option>
+            </optgroup>
+            <optgroup label="Europen countries">
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="italy">Italy</option>
+                <option value="spain">Spain</option>
+            </optgroup>
+        </select>
+        <br>
+        <h3>Datalist :</h3>
+        <input list="Language" name="lang" class="in">
+        <datalist id="Language">
+            <option value="C++">
+            <option value="C#">
+            <option value="C">
+            <option value="python">
+            <option value="php">
+            <option value="JavaScript">
+            <option value="Java">
+        </datalist>
+        <br>
+        <input type="submit" class="inp">
+    </form>
+    <h2>Entites :</h2>
+    <p>&lt;p&gt; : this is a paragraph tag</p>
+    <p>&copy; : copy right mark</p>
+    <p>Visit this website to see all entities :</p>
+    <a href="https://www.freeformatter.com/html-entities.html" target="_blank">Html entities list</a>
+    <!-- if the user need to write Notes,Comment,long text,description,message,... -->
+    <h2>Textarea :</h2>
+    <label for="tex">Enter the comment :</label>
+    <br>
+    <textarea name="content" id="tex" placeholder="comment..." autofocus maxlength="20"></textarea>
+    <br>
+    <a href="index5.html"><button>Next Page</button></a>
 </body>
 
 </html>
